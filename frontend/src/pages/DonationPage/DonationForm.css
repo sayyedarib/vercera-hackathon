@@ -1,0 +1,86 @@
+.background {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../../assets/images/header_main_img.jpg") center/cover no-repeat;
+  padding: 20vh 25vh 20vh 25vh;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 5px;
+}
+
+.donation-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.donation-form input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 24px;
+}
+
+.donation-form button[type="submit"] {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #148f77;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-option label {
+  margin-left: 10px;
+}
+
+.payment-option input[type="radio"] {
+  margin-right: 10px;
+}
